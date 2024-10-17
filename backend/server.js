@@ -15,7 +15,7 @@ app.get('*', (req, res, next) => {
     counter++;
 
     // number of requests...
-    console.log('counter', counter);
+    console.log('counter hejhej', counter);
 
     next();
 });
